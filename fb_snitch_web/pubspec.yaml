@@ -1,0 +1,26 @@
+name: fb_snitch_web
+description: Web only wrapper for Facebook Pixel.
+version: 0.0.1
+author: Ilya Yachin
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  fb_snitch_platform_interface:
+    path: ../fb_snitch_platform_interface/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: FbSnitchWeb
+        fileName: fb_snitch_web.dart
