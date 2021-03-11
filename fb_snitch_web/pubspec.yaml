@@ -12,7 +12,9 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   fb_snitch_platform_interface:
-    path: ../fb_snitch_platform_interface/
+    git:
+      url: https://github.com/illabo/fb_snitch.git
+      path: fb_snitch_platform_interface
 
 dev_dependencies:
   flutter_test:

@@ -60,9 +60,11 @@ packages:
   fb_snitch_platform_interface:
     dependency: transitive
     description:
-      path: "../../fb_snitch_platform_interface"
-      relative: true
-    source: path
+      path: fb_snitch_platform_interface
+      ref: HEAD
+      resolved-ref: dfe0afc10a38659c25f6e2addbfae54b82b22601
+      url: "https://github.com/illabo/fb_snitch.git"
+    source: git
     version: "0.0.1"
   fb_snitch_web:
     dependency: "direct main"
